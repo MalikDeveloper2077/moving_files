@@ -24,8 +24,8 @@ class FileHandler(FileSystemEventHandler):
 
 
 if __name__ == '__main__':
-    folder_to_track = input('Enter an absolute path to track\n> ')
-    folder_new_place = input('Enter an absolute path to new place of files\n> ')
+    folder_to_track = input('Enter the absolute path to track\n> ')
+    folder_new_place = input('Enter the absolute path to new place of files\n> ')
 
     handler = FileHandler()
     observer = Observer()
